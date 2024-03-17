@@ -12,8 +12,8 @@ if (process.argv.length < 4 || process.argv.length > 6) {
 }
 
 const bot = mineflayer.createBot({
-  host: process.argv[2],
-  port: parseInt(process.argv[3]),
+  host: omkardrf.aternos.me:42731,
+  port: 42731,
   username: process.argv[4] ? process.argv[4] : 'saver',
   password: process.argv[5],
   storageBuilder: ({ version, worldName }) => {
